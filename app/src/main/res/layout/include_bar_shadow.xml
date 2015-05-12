@@ -1,0 +1,6 @@
+<View
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/shadow_bar"
+    android:background="@drawable/shadow_bar"
+    android:visibility="@integer/bool_toolbar_shadow" />

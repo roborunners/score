@@ -1,0 +1,3 @@
+<resources>
+    <integer name="bool_toolbar_shadow">@integer/enum_visibility_gone</integer>
+</resources>

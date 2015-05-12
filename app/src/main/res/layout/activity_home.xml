@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_home"
+    tools:context=".Home"
+    tools:ignore="Overdraw">
+
+    <include layout="@layout/include_toolbar_jumbo" />
+    <include layout="@layout/include_bar_shadow" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/margin_activity_horizontal"
+        android:paddingRight="@dimen/margin_activity_horizontal"
+        android:paddingTop="@dimen/margin_activity_vertical"
+        android:paddingBottom="@dimen/margin_activity_vertical">
+
+        <Button
+            android:id="@+id/button_new"
+            android:text="@string/button_new"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/elevation_button" />
+
+        <Button
+            android:id="@+id/button_old"
+            android:text="@string/button_old"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/elevation_button" />
+    </LinearLayout>
+</LinearLayout>

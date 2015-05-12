@@ -1,0 +1,18 @@
+<resources>
+    <color name="primary">#800000</color>
+    <color name="primary_dark">#720000</color>
+    <color name="accent">#F44336</color>
+
+    <color name="text_dark">@color/abc_primary_text_material_dark</color>
+    <color name="text_light">@color/abc_primary_text_material_light</color>
+
+    <color name="toolbar">@color/primary</color>
+    <color name="popup">@color/background_material_light</color>
+    <color name="tabbar">@color/primary</color>
+    <color name="tabbar_indicator">@color/primary_dark</color>
+
+    <color name="background_home">@color/background_material_dark</color>
+    <color name="background_auto">#4CAF50</color>
+    <color name="background_endgame">#F44336</color>
+    <color name="background_teleop">#2196F3</color>
+</resources>

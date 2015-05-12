@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreCascadeEffect">
+
+    <include layout="@layout/include_toolbar" />
+
+    <org.roborunners.score.widgets.SlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_tabbar"
+        android:elevation="@dimen/elevation_tabbar"
+        android:theme="@style/AppTheme.Tabbar" />
+
+    <include layout="@layout/include_bar_shadow" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/AppTheme.Dark"/>
+</LinearLayout>

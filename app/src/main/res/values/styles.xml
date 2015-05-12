@@ -1,0 +1,42 @@
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+    <style name="AppTheme.Dark" parent="AppTheme.Base.Dark">
+    </style>
+    <style name="AppTheme.Toolbar" parent="AppTheme.Base.Toolbar">
+    </style>
+    <style name="AppTheme.Toolbar_Popup" parent="AppTheme.Base.Toolbar_Popup">
+    </style>
+    <style name="AppTheme.Tabbar" parent="AppTheme.Base.Tabbar">
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent</item>
+    </style>
+    <style name="AppTheme.Base.Dark" parent="Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent</item>
+    </style>
+    <style name="AppTheme.Base.Toolbar" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">@color/toolbar</item>
+    </style>
+    <style name="AppTheme.Base.Toolbar_Popup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/popup</item>
+        <item name="android:textColor">@color/text_light</item>
+    </style>
+    <style name="AppTheme.Base.Tabbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/tabbar</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+</resources>
